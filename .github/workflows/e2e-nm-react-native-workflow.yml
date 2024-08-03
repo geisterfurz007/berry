@@ -48,6 +48,7 @@ jobs:
 
         yarn dlx react-native init MyProject
         cd MyProject
+        yarn
         yarn react-native build-android
 
       shell: bash
